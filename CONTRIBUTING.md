@@ -11,6 +11,9 @@ Every contribution matters
    - Documentation: `git checkout -b docs/topic-name`
 3. Make your changes while following the existing project structure and coding style
 4. Commit your changes with a clear message
+   - All commit messages should follow [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) specification.  
+The message should be structured as follows: `<type>[optional scope]: <description>`
+
 5. Open a Pull Request with a short description of **what changed and why**
 
 ### 💡 Contribution tips
