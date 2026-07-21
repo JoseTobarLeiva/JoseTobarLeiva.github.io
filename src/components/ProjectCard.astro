@@ -6,6 +6,7 @@ interface Props {
 }
 
 const { project } = Astro.props;
+const techCategories = project.techCategories;
 
 const images =
   project.images?.map(img =>
