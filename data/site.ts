@@ -34,6 +34,7 @@ export const site = {
   },
   experiences: [
    {
+    
      period: '2025',
      title: 'Analista de datos',
      company: 'RCM Modular',
@@ -44,7 +45,7 @@ export const site = {
        'Responsable de formular y medir KPI tanto del inventario, producción y ventas generando semaforización con las metas y los objetivos que tiene la empresa.',
        'Establecí canales de reportería interna para las áreas de gerencia, logística y adquisición, emitiendo alertas tempranas sobre quiebres de stock, desviaciones presupuestarias y avance de proyectos.',
      ],
-     tech: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vite'],
+     tech: ['Power BI', 'SQL', 'Python', 'Excel', 'Odoo'],
    },
 
   ],

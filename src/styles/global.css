@@ -142,6 +142,8 @@
   }
 
   body {
+  text-align: justify;
+
     font-family: var(--font-body);
     color: var(--color-maintext);
     @apply antialiased;
