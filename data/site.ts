@@ -25,7 +25,7 @@ export const site = {
   },
   about: {
     paragraphs: [
-      'Ingeniero en informática con especialidad en Análisis de datos y Business Intelligence. Con experiencia en la recopilación, estructuración y modelado de grandes volúmenes de datos e inventarios. Especialista en el desarrollo de pipelines ETL utilizando Python, consultas SQL y automatización de Dashboards interactivos en Power BI mediante fórmulas DAX para la medición de KPIs críticos en las áreas de producción, logística y distribución. Capacidad demostrada para traducir datos complejos en decisiones estratégicas de negocio, optimizar procesos de cadena de suministros y coordinar equipos operativos',
+      'texto',
       {
         heading: 'Conocimientos',
         techItems: ['Power BI', 'SQL', 'Python', 'Excel'],
@@ -38,7 +38,7 @@ export const site = {
       period: '2025',
       summary: 'Dashboard de datos históricos de materiales en Power BI, utilizando medidas DAX y modelado de datos, enfocado en el análisis de movimientos, salidas y control de stock.',
       impact: 'Optimizo un 20% el tiempo de revisión de los materiales, ademas de generar una visualización para los datos.',
-      image: '',
+      image: 'dashboardHistorico1.jpg',
       imageAlt: 'Datos historicos de Heavy Duty',
       
       techCategories: [
