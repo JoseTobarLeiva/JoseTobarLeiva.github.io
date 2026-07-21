@@ -25,80 +25,30 @@ export const site = {
   },
   about: {
     paragraphs: [
-      'A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.',
-      'I care about clear boundaries between modules, automated checks in CI, and documentation that helps the next contributor ship safely.',
+      'Ingeniero en informática con especialidad en Análisis de datos y Business Intelligence. Con experiencia en la recopilación, estructuración y modelado de grandes volúmenes de datos e inventarios. Especialista en el desarrollo de pipelines ETL utilizando Python, consultas SQL y automatización de Dashboards interactivos en Power BI mediante fórmulas DAX para la medición de KPIs críticos en las áreas de producción, logística y distribución. Capacidad demostrada para traducir datos complejos en decisiones estratégicas de negocio, optimizar procesos de cadena de suministros y coordinar equipos operativos',
       {
-        heading: 'Example focus areas',
-        bullets: [
-          'Designing APIs and client boundaries with typed contracts',
-          'Performance budgets, caching, and pragmatic observability',
-          'Shipping incrementally with feature flags and rollback-friendly deploys',
-        ],
-      },
-      {
-        heading: 'Sample stack',
-        techItems: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vitest'],
+        heading: 'Conocimientos',
+        techItems: ['Power BI', 'SQL', 'Python', 'Excel'],
       },
     ],
   },
-  experiences: [
-    {
-      period: '2025',
-      title: 'Lead Product Designer',
-      company: 'Lumen Studio',
-      summary:
-        'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
-      highlights: [
-        'Designed and shipped the complete website using Astro, Tailwind CSS, and content-driven components',
-        'Crafted consistent responsive layouts and accessible typography across desktop and mobile',
-        'Optimized asset delivery and performance for sub-1s page load metrics',
-      ],
-      tech: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vite'],
-    },
-    {
-      period: '2024',
-      title: 'Frontend Architect',
-      company: 'Nova Launch',
-      summary:
-        'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
-      highlights: [
-        'Implemented a component-based design system with reusable cards, buttons, and hero sections',
-        'Built content-driven project pages, archive views, and client-side navigation enhancements',
-        'Added cross-browser polish and performance tuning with image optimization and lazy loading',
-      ],
-      tech: ['Astro', 'TypeScript', 'Tailwind CSS', 'Node', 'Vite'],
-    },
-    {
-      period: '2023',
-      title: 'UI Engineer',
-      company: 'Orbital Creative',
-      summary:
-        'Created an interactive product showcase with a clean visual system and accessible component library.',
-      highlights: [
-        'Built a flexible project card system for content updates without code changes',
-        'Improved brand consistency with typography, color, and motion guidelines',
-        'Added testing and quality checks for cross-device UI fidelity',
-      ],
-      tech: ['Astro', 'Tailwind CSS', 'JavaScript', 'Node', 'Vitest'],
-    },
-  ],
   featuredProjects: [
     {
-      title: 'Lumen Studio Website',
+      title: 'Dashboard de Control de stock y Movimientos',
       period: '2025',
-      summary: 'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
-      solution: 'Designed a modular component system with Astro and Tailwind CSS, ensuring consistent brand experience across all breakpoints.',
-      impact: 'Achieved sub-1s page load metrics and 95+ Lighthouse scores through optimized asset delivery and lazy loading strategies.',
-      image: 'astro-01.webp',
-      imageAlt: 'Lumen Studio website showcase',
+      summary: 'Dashboard de datos históricos de materiales en Power BI, utilizando medidas DAX y modelado de datos, enfocado en el análisis de movimientos, salidas y control de stock.',
+      impact: 'Optimizo un 20% el tiempo de revisión de los materiales, ademas de generar una visualización para los datos.',
+      image: 'dashboardHistorico1.jpg',
+      imageAlt: 'Datos historicos de Heavy Duty',
+      
       techCategories: [
         {
-          category: 'Frontend',
-          items: ['TypeScript', 'Astro', 'Tailwind CSS', 'Responsive Design'],
+          category: 'Analisis de datos',
+          items: ['Power BI', 'Odoo', 'Excel'],
         },
         {
-          category: 'Performance',
-          items: ['Asset Optimization', 'Lazy Loading', 'Image CDN'],
+          category: 'Dashboard',
+          items: ['Optimización', 'Visualización de datos'],
         },
       ],
     },
