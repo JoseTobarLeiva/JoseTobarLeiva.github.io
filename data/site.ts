@@ -58,6 +58,8 @@ export const site = {
       impact: 'Optimizo un 20% el tiempo de revisión de los materiales, ademas de generar una visualización para los datos.',
       image: 'dashboardHistorico1.jpg',
       imageAlt: 'Datos historicos de Heavy Duty',
+      image2: 'dashboardHistorico2.jpg',
+      imageAlt2: 'Datos historicos de pintura',
       
       techCategories: [
         {
