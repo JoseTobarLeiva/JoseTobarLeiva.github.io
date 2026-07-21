@@ -3,13 +3,16 @@ import type { FeaturedProject } from '../../data/site';
 
 interface Props {
   project: FeaturedProject;
-  imageSrc?: string;
 }
 
-const { project, imageSrc: imageOverride } = Astro.props;
+const { project } = Astro.props;
 
-const techCategories = project.techCategories;
-const imageSrc = imageOverride ?? (project.image ? (project.image.startsWith('/') ? project.image : `/${project.image}`) : undefined);
+const images =
+  project.images?.map(img =>
+    img.startsWith('/') ? img : `/${img}`
+  ) ??
+  (project.image ? [project.image.startsWith('/') ? project.image : `/${project.image}`] : []);
+
 ---
 
 <article class="scroll-stat panel-card group space-y-6">
@@ -20,17 +23,21 @@ const imageSrc = imageOverride ?? (project.image ? (project.image.startsWith('/'
     {project.period && <p class="mt-1 font-mono text-sm text-accent">{project.period}</p>}
   </header>
 
-  {imageSrc && (
-    <div class="w-full max-w-3xl overflow-hidden rounded-xl">
-      <img
-        src={imageSrc}
-        alt={project.imageAlt ?? ''}
-        class="w-full h-56 object-cover"
-        loading="lazy"
-        decoding="async"
-      />
-    </div>
-  )}
+{images.length > 0 && (
+  <div class="grid gap-4 sm:grid-cols-2">
+    {images.map((img) => (
+      <div class="overflow-hidden rounded-xl">
+        <img
+          src={img}
+          alt={project.imageAlt ?? ''}
+          class="w-full h-56 object-cover"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    ))}
+  </div>
+)}
 
   <div class="space-y-4">
     <p class="body-copy">{project.summary}</p>

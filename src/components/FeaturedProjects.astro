@@ -22,7 +22,7 @@ const archiveHref = `${base}projects`;
   <h2 id="projects-heading" class="section-heading">Featured Projects</h2>
   <div class="space-y-20">
     {projects.map((project) => (
-      <ProjectCard project={project} imageSrc={project.image ? `${base}${project.image}` : undefined} />
+      <ProjectCard project={project} />
     ))}
   </div>
   <p class="mt-14">
