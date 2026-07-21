@@ -34,8 +34,19 @@ export const site = {
   },
   experiences: [
    {
-    
+     period: '2025',
+     title: 'Analista de datos',
+     company: 'RCM Modular',
+     summary:
+       'Encargado del area de análisis para las areas de gerencia, logistica, bodega y producción',
+     highlights: [
+       'Diseñe e implemente un Dashboard automatizado en Power Bi para el monitoreo de movimientos de SKU, costo total, tiempo del proyecto y costo total por material, logrando reducir un 80% el tiempo requerido por la gerencia para revisar dicha información.',
+       'Responsable de formular y medir KPI tanto del inventario, producción y ventas generando semaforización con las metas y los objetivos que tiene la empresa.',
+       'Establecí canales de reportería interna para las áreas de gerencia, logística y adquisición, emitiendo alertas tempranas sobre quiebres de stock, desviaciones presupuestarias y avance de proyectos.',
+     ],
+     tech: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vite'],
    },
+
   ],
 
   featuredProjects: [
