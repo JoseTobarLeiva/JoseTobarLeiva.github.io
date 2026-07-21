@@ -32,7 +32,7 @@ export const site = {
       },
     ],
   },
-  experience:[{}]
+  experience:[{}],
   featuredProjects: [
     {
       title: 'Dashboard de Control de stock y Movimientos',
