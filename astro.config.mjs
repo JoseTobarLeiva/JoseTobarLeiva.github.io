@@ -4,7 +4,6 @@ import icon from 'astro-icon';
 
 export default defineConfig({
   site: 'https://JoseTobarLeiva.github.io',
-  base: '/my-repo',
   output: 'static',
   vite: {
     plugins: [tailwindcss()],
