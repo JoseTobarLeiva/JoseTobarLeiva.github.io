@@ -52,10 +52,10 @@ export const site = {
 
   featuredProjects: [
     {
-      Titulo: 'Dashboard de Control de stock y Movimientos',
-      Periodo: '2025',
-      Resumen: 'Dashboard de datos históricos de materiales en Power BI, utilizando medidas DAX y modelado de datos, enfocado en el análisis de movimientos, salidas y control de stock.',
-      Impacto: 'Optimizo un 20% el tiempo de revisión de los materiales, ademas de generar una visualización para los datos.',
+      title: 'Dashboard de Control de stock y Movimientos',
+      period: '2025',
+      summary: 'Dashboard de datos históricos de materiales en Power BI, utilizando medidas DAX y modelado de datos, enfocado en el análisis de movimientos, salidas y control de stock.',
+      impact: 'Optimizo un 20% el tiempo de revisión de los materiales, ademas de generar una visualización para los datos.',
      images: [
         'dashboardHistorico1.jpg',
         'dashboardHistorico2.jpg',
