@@ -35,7 +35,7 @@ export const site = {
   experiences: [
    {
     
-     period: '2024 - 2025',
+     period: '2024 - 2026',
      title: 'Analista de datos',
      company: 'RCM Modular',
      summary:
