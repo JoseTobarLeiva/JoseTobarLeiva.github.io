@@ -19,7 +19,7 @@ export const site = {
     name: 'José Tobar',
     role: 'Ingeniero en informática',
     tagline: 'Especialidad en analisis de datos',
-    contact: '',
+    contact: 'joseT.ignacioL@gmail.com',
     avatarSrc: '/perfil.jpg',
     avatarAlt: 'José Tobar',
   },
