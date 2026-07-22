@@ -20,13 +20,12 @@ const archiveHref = `${base}projects`;
   aria-labelledby="projects-heading"
 >
   <h2 id="projects-heading" class="section-heading">Proyectos realizados</h2>
-  <div class="space-y-20"> texto 1
+  <div class="space-y-20">
     {projects.map((project) => (
       <ProjectCard project={project} />
-    ))}texto 3
+    ))}
   </div>
   <p class="mt-14">
-  texto 2
     <a
       href={archiveHref}
       class="group flex items-center gap-2 text-sm text-accent transition hover:text-slate-light"
