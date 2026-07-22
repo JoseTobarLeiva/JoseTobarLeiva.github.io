@@ -35,16 +35,16 @@ const isSidebar = variant === 'sidebar';
       <p class="body-copy mt-5 max-w-xs">{site.hero.tagline}</p>
       <p class="body-copy mt-5 max-w-xs">{site.hero.contact}</p>
 
-      <div class="mt-3 flex justify-center gap-4"> texto 11
+      <div class="mt-3 flex justify-center gap-4"> 
         <ContactBar />
       </div>
     </div>
   </>
 ) : (
-  <div class="flex flex-col items-center text-center"> texto 12
-    <div class="relative mb-4">texto 13
+  <div class="flex flex-col items-center text-center"> 
+    <div class="relative mb-4">
       <div class="h-20 w-20 rounded-full border-2 border-accent overflow-hidden shadow-[0_0_40px_color-mix(in_srgb,var(--color-accent)_28%,transparent)]">
-        texto 14<img
+        <img
           src={site.hero.avatarSrc}
           alt={site.hero.avatarAlt}
           class="h-full w-full object-cover"
@@ -55,15 +55,15 @@ const isSidebar = variant === 'sidebar';
         />
       </div>
     </div>
-    <h1 class="text-4xl font-bold tracking-tight text-white transition"> texto 15
+    <h1 class="text-4xl font-bold tracking-tight text-white transition"> 
       {site.hero.name}
     </h1>
-    <p class="mt-3 text-xl font-semibold tracking-tight text-slate-light">{site.hero.role} texto 16</p>
-    <div class="mt-4 max-w-prose space-y-3 text-lg leading-relaxed text-slate"> texto 18
+    <p class="mt-3 text-xl font-semibold tracking-tight text-slate-light">{site.hero.role} </p>
+    <div class="mt-4 max-w-prose space-y-3 text-lg leading-relaxed text-slate"> 
       <p>{site.hero.tagline}</p>
       <p>{site.hero.contact}</p>
     </div>
-    <div class="mt-2 mb-6 flex items-center justify-center gap-4"> texto 19
+    <div class="mt-2 mb-6 flex items-center justify-center gap-4">
       <ContactBar />
     </div>
   </div>
