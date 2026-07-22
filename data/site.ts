@@ -51,6 +51,28 @@ export const site = {
   ],
 
   featuredProjects: [
+     {
+      title: 'Dashboard de Costos por Proyectos',
+      period: '2026',
+      summary: 'Dashboard de costos por proyectos desarrollado en Power Bi, utilizando medidas DAX y modelado de datos, enfocado en el análisis de materiales, seguimiento de la duración de proyectos y evaluación del comportamiento de los SKU',
+      solution: 'Uno de los problemas que se tenía en RCM era obtener datos específicos de proyectos antiguos —como pinturas utilizadas, tipos de pisos, artefactos o materiales específicos— podía tomar 30 minutos o más por búsqueda.\n\n La solución para el problema fue implementar un Dashboard interactivo en Power BI que permite: Buscar por categoría o número de proyecto, Consultar duración del proyecto, Mejorar el control de SKU históricos y actuales y Centralizar información crítica de manera rápida y eficiente',
+      impact: 'Reducción del tiempo de búsqueda en 85%, mayor eficiencia operativa, mejor control de materiales y una toma de decisiones más rápida basa en datos',
+      images: [
+        'itemxproyecto1.jpg',
+        'itemxproyecto2.jpg',
+      ],
+      imageAlt: 'Movimientos de item por proyecto',
+      techCategories: [
+        {
+          category: 'Analisis de datos',
+          items: ['Power BI', 'SQL', 'Python'],
+        },
+        {
+          category: 'Dashboard',
+          items: ['Optimización', 'Visualización de datos'],
+        },
+      ],
+    },
     {
       title: 'Dashboard de Control de stock y Movimientos',
       period: '2025',
@@ -72,29 +94,7 @@ export const site = {
           items: ['Optimización', 'Visualización de datos'],
         },
       ],
-    },
-    {
-      title: 'Dashboard de Costos por Proyectos',
-      period: '2026',
-      summary: 'Dashboard de costos por proyectos desarrollado en Power Bi, utilizando medidas DAX y modelado de datos, enfocado en el análisis de materiales, seguimiento de la duración de proyectos y evaluación del comportamiento de los SKU',
-      solution: 'Uno de los problemas que se tenía en RCM era obtener datos específicos de proyectos antiguos —como pinturas utilizadas, tipos de pisos, artefactos o materiales específicos— podía tomar 30 minutos o más por búsqueda.\n\n La solución para el problema fue implementar un Dashboard interactivo en Power BI que permite: Buscar por categoría o número de proyecto, Consultar duración del proyecto, Consultar duración del proyecto, Mejorar el control de SKU históricos y actuales y Centralizar información crítica de manera rápida y eficiente',
-      impact: 'Reducción del tiempo de búsqueda en 85%, mayor eficiencia operativa, mejor control de materiales y una toma de decisiones más rápida basa en datos',
-      images: [
-        'itemxproyecto1.jpg',
-        'itemxproyecto2.jpg',
-      ],
-      imageAlt: 'Movimientos de item por proyecto',
-      techCategories: [
-        {
-          category: 'Analisis de datos',
-          items: ['Power BI', 'SQL', 'Python'],
-        },
-        {
-          category: 'Dashboard',
-          items: ['Optimización', 'Visualización de datos'],
-        },
-      ],
-    },
+    }
   ],
   projectArchivePage: {
     title: 'Proyectos',
