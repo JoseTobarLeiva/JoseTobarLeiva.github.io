@@ -97,21 +97,18 @@ export const site = {
     },
   ],
   projectArchivePage: {
-    title: 'All projects',
-    description: 'Project archive: dates, roles, and technologies across representative engagements.',
-    intro: 'A concise archive of engagements and representative work.',
+    title: 'Proyectos',
+    description: 'Proyectos elaborados autorizados a ser publicados como analista de datos',
+    intro: 'Proyectos elaborados autorizados a ser publicados como analista de datos.',
   },
   projectArchive: [
-    { date: '2025', project: 'Design system rollout', role: 'Frontend', techStack: 'Astro, CSS, Storybook' },
-    { date: '2024', project: 'Checkout reliability', role: 'Full-stack', techStack: 'TypeScript, Postgres, Redis' },
-    { date: '2024', project: 'Auth hardening', role: 'Backend', techStack: 'OAuth2, JWT, rate limits' },
-    { date: '2023', project: 'Analytics pipeline', role: 'Data', techStack: 'SQL, dbt, warehouse' },
-    { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
+    { date: '2026', project: 'Dashboard de Costos por Proyectos', role: 'Analista', techStack: 'Power BI Excel, Odoo' },
+    { date: '2025', project: 'Dashboard de Control de stock y Movimientos', role: 'Analista', techStack: 'Power BI, SQL, Python' },
   ],
   contact: {
-    email: 'hello@example.com',
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
+    email: 'joseT.IgnacioL@gmail.com',
+    github: 'https://github.com/JoseTobarLeiva',
+    linkedin: 'https://www.linkedin.com/in/joséignaciotobarleiva',
   },
 } as const;
 
